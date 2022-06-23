@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+
+
+*{
+    padding: 0px;
+    margin:0px;
+}
+
+.nav-brand{
+    text-decoration: none;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-weight: bolder;
+    font-size: 4rem;
+
+}
+
+.header{
+    background-color: aquamarine;
+    text-align: center;
+    width: 1440px;
+    
+}
+
+
+.container{
+    display: block;
+    width:1440px;
+    margin: auto;
+    /* background-color: aquamarine; */
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+
+.body-shadow{
+    text-decoration: none;
+    background-color: blanchedalmond;
+    padding: 15px;
+    border-radius: 15px;
+    border: 3px solid black;
+}
+.box-nav{
+    display: inline-block;
+}
+
+.box-nav:hover{
+    transform: scale(1.1);
+}
+
+#text{
+    padding-right: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    
+}
+
+.table{
+    background-color: bisque;
+    margin: auto;
+    width: 1200px;
+    margin-top: 50px;
+    border-radius: 5px;
+    font-family:  'Kdam Thmor Pro', sans-serif;
+    border-spacing: 0px;
+}
+
+.table th{
+    color: aliceblue;
+    background-color: black;
+    opacity: 0.9;
+}
+.table td , .table th{
+    padding:1em;
+    border-top: 2px solid black;
+    text-align: center;
+}
+
+.table tr:hover{
+    background-color: rgb(182, 240, 221);
+}
+
+.btn1{
+    margin-right: 20px;
+    
+}
+.btn1:hover,.btn2:hover{
+    border: 2.5px solid black;
+}
+
+.btn2{
+    padding: 2px;
+}
+
+.btn1:visited{
+    text-decoration: none;
+    color: blue;
+
+}
+
+.chart_link{
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    border:3px solid black;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+
+/* -----------------------------------
+ */
+
+.heading2{
+    font-family:  'Kdam Thmor Pro', sans-serif;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.subheading{
+    margin-top: 10px;
+    color: grey;
+    font-family:'Kdam Thmor Pro', sans-serif ;
+}
+
+.new_user{
+    background-color: bisque;
+    border:2px solid black;
+    border-radius: 5px;
+    width: 500px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+.form-group{
+    padding: 10px;
+    display: flex;
+}
+.form-group input{
+    font-family:'Kdam Thmor Pro', sans-serif ;
+    margin-left: 20px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+.box{
+    width: 300px;
+}
+.box2{
+    width: 300px;
+    
+}
+
+.radio{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.radio2{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.tags{
+    font-family: 'Kdam Thmor Pro', sans-serif ;
+    padding-top: 5px;
+    
+}
+
+.btn{
+    font-family: 'Kdam Thmor Pro', sans-serif ;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 100px;
+    padding: 8px;
+    
+}
+
+.btn-gr{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+ }
+
+
+
+
+ /* ----------------------------------------- */
+
+
+ /* 
+.msginp{
+    font-family:'Kdam Thmor Pro', sans-serif ;
+    padding: 10px;
+
+    
+}
+ .input{
+    border:2px solid black;
+    width:70%;
+    padding: 5px;
+    margin: 10px;
+    font-family:'Kdam Thmor Pro', sans-serif ;
+    border-radius: 10px;
+ }
+
+ #gender{
+    margin-right: 200px;
+ }
+
+ #status{
+    margin-right: 190px;
+ }
+
+ .gender{
+    margin-top: 10px;
+    margin-left: -125px;
+ }
+ .status{
+    margin-top: 10px;
+    margin-left: -110px;
+ }
+
+ .btn{
+
+    padding: 10px;
+    margin-top: 10px;
+    font-family:'Kdam Thmor Pro', sans-serif ;
+    border-radius: 10px;
+
+ } */
+
+
+
+
+
+
+/* -------------------------------------- */
+@media only screen and (max-width:1281px){
+
+    .container{
+        width: 1280px;
+    }
+
+    .header{
+        width: 1280px;
+    }
+    .table{
+        width: 1200px;
+    }
+}
+@media only screen and (max-width:1025px){
+    .table{
+        width: 1200px;
+    }
+}
+@media only screen and (max-width:821px){
+    .nav-brand {
+        font-size: 2.5rem;
+    }
+    
+    .table{
+        width: 700px;
+        font-size: 1rem;
+    }
+    .container{
+        width: 820px;
+    }
+
+    .header{
+        width: 820px;
+    }
+
+    #text{
+        font-size: 1rem;
+    }
+}
+
+
+@media only screen and (max-width:769px){
+    .table{
+        width: 500px;
+        font-size: 1rem;
+    }
+    .container{
+        width: 768px;
+    }
+    .header{
+        width: 768px;
+    }
+    #text{
+        font-size: 0.8rem;
+    }
+
+    #a{
+        font-size: 0.8rem;
+    }
+
+    #b{
+        font-size: 0.8rem;
+    }
+
+    #c{
+        font-size: 0.8rem;
+    }
+}
+@media only screen and (max-width:641px){
+    .table{
+        width: 450px;
+        font-size: 0.7rem;
+    }
+    .container{
+        width: 650px;
+    }
+    .header{
+        width: 650px;
+    }
+    #text{
+        font-size: 0.8rem;
+    }
+
+    #a{
+        font-size: 0.8rem;
+    }
+
+    #b{
+        font-size: 0.8rem;
+    }
+
+    #c{
+        font-size: 0.8rem;
+    }
+}
+
+
+
+@media only screen and (max-width:376px) {
+
+
+    .nav-brand {
+        font-size: 1.5rem;
+    }
+
+    .header {
+        width: 375px;
+    }
+
+    .container {
+        width: 375px;
+    }
+
+    .table {
+        width: 350px;
+        font-size: 0.5rem;
+    }
+
+    #text {
+        font-size: 0.65rem;
+    }
+
+    .body-shadow {
+        padding: 10px;
+    }
+
+    #a {
+        font-size: 0.65rem;
+    }
+
+    #b{
+        font-size: 0.65rem;
+
+    }
+
+    #c{
+        font-size: 0.7rem;
+
+    }
+
+    .new_user{
+
+        width: 300px;
+    }
+
+}
+@media only screen and (max-width:321px){
+    .table{
+        width: 1000px;
+        font-size: 1.7rem;
+    }
+    .body-shadow{
+        padding: 30px;
+    }
+    .header{
+        width: 1100px;
+    }
+
+    .container{
+        width: 1100px;
+    }
+
+    #text{
+        font-size: 2rem;
+    
+
+    }
+    #a{
+        font-size: 2rem;
+    }
+
+    #b{
+        font-size: 2rem;
+    }
+
+    #c{
+        font-size: 2rem;
+    }
+
+    .nav-brand{
+        font-size: 3rem;
+    }
+
+
+
+
+
+}
+
+
+

@@ -1,0 +1,81 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css' integrity='sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==' crossorigin='anonymous' referrerpolicy='no-referrer')
+  style 
+    include  ../assets/css/style.css
+
+  script( language="JavaScript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" )
+  script
+    include ../assets/JS/alert.js
+
+  title CRUD APPLICATION
+// header
+
+
+
+-let length= users.length 
+
+
+//- users is object requested from api
+header.chart
+  
+header.header
+  nav
+    .text-center
+      a.nav-brand(href='/') CRUD APP
+// center container
+main#site-main
+  .container
+    .box-nav
+      a.body-shadow(href='/add_user')
+        span.text-gradient
+          span#text New User
+          i#a.fa-solid.fa-user(class='fa-1.5x')
+      a.chart_link(href='/chart') Charts
+    // form heading
+    form( method='POST')
+      
+      table.table
+        thead.thead-dark
+          tr
+            th ID
+            th NAME
+            th EMAIL
+            th GENDER
+            th STATUS
+            th ACTION
+
+        tbody
+           
+          -for (var i=0;i<length;i++)
+            tr
+              td= i+1   
+              td= users[i].name
+              td= users[i].email
+              td= users[i].gender
+              td= users[i].stat
+              td
+                -var key= users[i]._id
+                //- sessionStorage.setItem("x",key)
+                a.btn1(href='/update_user?id='+key)
+                  span.text-gradient
+                    i#b.fa-solid.fa-pencil
+                a.btn2#delete(x= users[i]._id)
+                  span.text-gradient
+                    i#c.fa-solid.fa-xmark.fa-lg
+
+                
+
+                
+
+
+      
+
+                  
+          
+
+    
+    
